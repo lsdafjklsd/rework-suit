@@ -36,6 +36,7 @@ options available in [rework-npm](https://github.com/reworkcss/rework-npm).
 * [rework-calc](https://github.com/reworkcss/rework-calc): resolve basic `calc()` expressions.
 * [rework-suit-conformance](https://github.com/suitcss/rework-suit-conformance): SUIT CSS conformance checks on imported files.
 * [rework-ie-limits](https://github.com/reworkcss/rework-ie-limits): IE selector limit check.
+* [rework-inherit](https://github.com/reworkcss/rework-inherit): Inherit other CSS properties.
 
 Original:
 

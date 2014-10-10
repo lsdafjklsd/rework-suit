@@ -11,6 +11,7 @@ var inliner = require('rework-npm');
 var limits = require('rework-ie-limits');
 var rework = require('rework');
 var vars = require('rework-vars');
+var inherit = require('rework-inherit');
 
 /**
  * Module exports
@@ -49,6 +50,8 @@ function suit(options) {
       // variables
       .use(vars())
       // calc
-      .use(calc);
+      .use(calc)
+      // ability to inherit other selector's properties
+      .use(inherit());
   };
 }
